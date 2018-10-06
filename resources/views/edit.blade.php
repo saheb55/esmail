@@ -1,7 +1,7 @@
 @extends('front.app') 
 
 @section('content')
-<h1>hellow</h1>
+<h1>hellow hiiiiiii</h1>
 <div class="row">
           <div class="col-md-10">
           <form action=" {{ route('posts.update',$post->post_id) }}" method="post"> 
